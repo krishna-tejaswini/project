@@ -27,6 +27,7 @@ SessionFactory sessionFactory;
 		}
 		catch(Exception e){
 			System.out.println(e.getMessage());
+			System.out.println("Category not added");
 			return false;
 			
 		}
