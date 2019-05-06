@@ -43,6 +43,7 @@ SessionFactory sessionFactory;
 		}
 		catch(Exception e){
 			System.out.println(e.getMessage());
+			System.out.println("not updated");
 			return false;
 			
 		}
